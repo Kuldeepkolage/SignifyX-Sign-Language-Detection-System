@@ -1,16 +1,52 @@
-# signify_x
+SignifyX – Sign Language Detection System
 
-A new Flutter project.
+SignifyX is an AI-powered web-based Sign Language Detection system designed to improve communication for people with hearing and speech impairments. The platform uses MediaPipe and a deep learning model to recognize hand gestures in real time through a webcam and convert them into meaningful text or speech output.
 
-## Getting Started
+The system follows a MERN-based architecture with a Python ML service, where the frontend captures gestures, the backend handles requests, and the machine learning model performs gesture recognition.
 
-This project is a starting point for a Flutter application.
+Features
 
-A few resources to get you started if this is your first Flutter project:
+Real-time hand gesture detection
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+AI-powered sign language recognition
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Webcam-based gesture capture
+
+Multilingual output support (Marathi, Hindi, English)
+
+Text and voice feedback
+
+Helps enable two-way communication
+
+Tech Stack
+Frontend
+
+React.js
+
+JavaScript
+
+HTML
+
+CSS
+
+Backend
+
+Node.js
+
+Express.js
+
+Machine Learning
+
+Python
+
+MediaPipe
+
+TensorFlow / Deep Learning model
+
+Tools
+
+Git
+
+GitHub
+
+VS Code
